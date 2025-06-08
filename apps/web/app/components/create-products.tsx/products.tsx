@@ -12,7 +12,7 @@ export default async function Todos() {
       <h1>Todos</h1>
       <div>
         {todos.map((todo) => (
-  <div key={todo.id} className="todo">
+  <div key={todo.name} className="todo">
                         <h2>{todo?.name}</h2> {/* Adjust property names */}
 
             <h2>{todo?.task}</h2> {/* Adjust property names */}
